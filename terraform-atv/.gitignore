@@ -1,0 +1,13 @@
+# Arquivos de estado (já no seu)
+*.tfstate
+*.tfstate.backup
+
+# Pasta de inicialização (ajustado com a barra para ignorar a pasta toda)
+.terraform/
+
+# OBRIGATÓRIO: Arquivos de variáveis e segredos
+*.tfvars
+*.tfvars.json
+
+# OBRIGATÓRIO: Lock do provider (evita o aviso de linha que você recebeu)
+.terraform.lock.hcl
